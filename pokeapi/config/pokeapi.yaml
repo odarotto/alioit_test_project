@@ -1,8 +1,8 @@
 postgres:
   database: pokeapi_db
-  user: root
-  password: root
-  host: localhost
+  user: postgres
+  password: postgres
+  host: db
   port: 5432
-  minzise: 1
-  maxsize: 2
+  minsize: 1
+  maxsize: 5
